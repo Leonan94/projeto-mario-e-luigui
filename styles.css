@@ -74,7 +74,10 @@ button {
 
 p {
     color: white;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+
+   
 
 }
 
@@ -128,7 +131,7 @@ p {
     gap: 10px;
     margin-top: 20px;
     z-index: 3;
-    transition: left 0.9s ease-in-out;
+    transition: left 1s ease-in-out;
 
 }
 
@@ -156,6 +159,7 @@ textarea {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
-    transition: visibility 0.9s ease-in-out;
+    transition: visibility 1s ease-in-out;
+    
 
 }
