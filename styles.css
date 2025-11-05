@@ -46,14 +46,13 @@ body {
     height: 400px;
 
 
-    ;
-
 }
 
 .logo-mario {
 
     height: 200px;
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 button {
@@ -69,7 +68,8 @@ button {
 }
 
 .caixa-principal {
-    width: 40%;
+    width: 50%;
+    margin-top: 80px;
 }
 
 p {
@@ -128,7 +128,8 @@ p {
     gap: 10px;
     margin-top: 20px;
     z-index: 3;
-    
+    transition: left 0.9s ease-in-out;
+
 }
 
 input {
@@ -155,5 +156,6 @@ textarea {
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     position: fixed;
     top: 0;
-   
+    transition: visibility 0.9s ease-in-out;
+
 }

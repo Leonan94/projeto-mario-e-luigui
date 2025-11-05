@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
@@ -56,14 +56,20 @@
         <img src="./assents/whatsapp.png" alt="link-whatsapp">
     </a>
 
-    <form class="formulario-fale-conosco">
-        <input placeholder="Seu nome">
-        <input placeholder="Seu telefone">
-        <textarea placeholder="Digite seu problema aqui"></textarea>
-        <button>Pedir Orçamento</button>
+    <form class="formulario-fale-conosco" 
+        action="https://formcarry.com/s/JhXaROuUC6H"
+         method="POST"
+        enctype="multipart/form-data">
+            <input placeholder="Seu nome" type="text" name="nome">
+            <input placeholder="Seu telefone" type="tel" name="telefone">
+            <textarea placeholder="Digite seu problema aqui"></textarea>
+            <button type="submit">Pedir Orçamento</button>
     </form>
-        <div onclick="cliqueMascara()" class="mascara-formulario"></div>
-</body>
+
+  
+      <div onclick="cliqueMascara()" class="mascara-formulario"></div>
+
+    </body>
 
 <script src="./scripts.js"></script>
 
