@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mario & Luigi</title>
+</head>
+
+<body>
+
+    <div class="inicio">
+        <img src="./assents/logo-header.png" alt="logo-inicio">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+
+    <header>
+
+        <div class="caixa-principal">
+            <img class="logo-mario" src="./assents/logo.png" alt="logo-mario-bros">
+
+            <p>Encanadores Mario & Luigi - Resolvendo seus problemas com estilo !</p>
+            <br>
+            <p> Você já se encontrou em uma situação de emergência com encanamento? Vazamentos inesperados, canos
+                entupidos ou torneiras que não param de pingar? Não se preocupe, porque estamos aqui para salvar o dia!
+                Apresentamos a vocês os encanadores mais famosos do Reino dos Cogumelos - Mario e Luigi!</p>
+
+            <button onclick="buttonContato()">ENTRE EM CONTATO</button>
+
+
+        </div>
+
+        <div>
+            <img class="mario-e-luigi" src="./assents/mario.png" alt="mario-e-luigi">
+            <div class="mascara">
+
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+    <div class="caixa-video">
+
+        <video src="./assents/video.mp4" autoplay muted loop></video>
+
+    </div>
+    <a class="link-whatsapp"
+        href="https://api.whatsapp.com/send?phone=55999999999&text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20os%20servi%C3%A7os%20de%20encanamento."
+        target="_blank">
+        <img src="./assents/whatsapp.png" alt="link-whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco">
+        <input placeholder="Seu nome">
+        <input placeholder="Seu telefone">
+        <textarea placeholder="Digite seu problema aqui"></textarea>
+        <button>Pedir Orçamento</button>
+    </form>
+        <div onclick="cliqueMascara()" class="mascara-formulario"></div>
+</body>
+
+<script src="./scripts.js"></script>
+
+</html>
