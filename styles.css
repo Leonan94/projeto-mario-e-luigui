@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:mukta, sans-serif;
 }
 
 .caixa-video {
@@ -75,7 +76,7 @@ button {
 p {
     color: white;
     font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
+    
 
    
 
@@ -161,5 +162,30 @@ textarea {
     top: 0;
     transition: visibility 1s ease-in-out;
     
+}
 
+@media (max-width: 1100px) {
+   
+   
+    header {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .caixa-principal {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .mario-e-luigi {
+        height: 300px;
+    }
+
+    .logo-mario {
+        height: 150px;
+        margin-bottom: 10px;
+        margin-left: 0px;
+    }
 }
